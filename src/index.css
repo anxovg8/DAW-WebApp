@@ -1,0 +1,41 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  color-scheme: light;
+  background-color: #f0f2f5;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+#root {
+  width: 100%;
+}
+
+/* Aumentar tamaño de texto para mejor legibilidad */
+.MuiTypography-root {
+  font-size: 1.1rem !important;
+}
+
+.MuiButton-root {
+  font-size: 1rem !important;
+  padding: 8px 24px !important;
+}
+
+/* Estilos para mejorar la accesibilidad */
+.reminder-item:hover {
+  background-color: #f5f5f5 !important;
+  transition: background-color 0.3s ease;
+}
+
+.health-tip-card {
+  transition: transform 0.2s ease;
+}
+
+.health-tip-card:hover {
+  transform: translateY(-2px);
+}
